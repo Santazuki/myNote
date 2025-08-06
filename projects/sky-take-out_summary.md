@@ -8,9 +8,21 @@
 
 11天用于学习苍穹外卖本身：
 
-除了基本的crud之外（商品管理、地址簿管理），
+基本的crud: 员工管理、分类管理、商品管理、地址簿管理
 
-**学习**：订单相关业务逻辑（订单状态管理、来单提醒、客户催单、再来一单），redis缓存营业状态、以及搭配spring cache小程序端分类商品数据，spring task定时处理订单，websocket建立长连接、实现客户向管理端推送订单提醒消息，httpclient调用外部API，POI实现读写生成excel报表数据。
+**学习**
+
+- 订单业务逻辑
+  - 订单状态管理
+  - 来单提醒、客户催单、再来一单
+- 缓存与消息
+  - Redis缓存营业状态
+  - Spring Cache分类商品数据
+  - WebSocket订单提醒
+- 其他
+  - Spring Task定时任务
+  - HttpClient调用外部API
+  - POI生成Excel报表
 
 **复习**：条件分页查询，登录下发jwt令牌，拦截器的注册、拦截请求，threadlocal管理当前用户id，AOP统一填充公共字段，Spring IOC容器管理bean对象，引入外部资源注册为bean对象，阿里云OSS上传图片，maven构建项目。
 
@@ -29,3 +41,10 @@
 数据层：mysql, redis, mybatis, pagehelper, spring data redis
 
 工具：git, maven, junit, apifox
+
+
+#### **项目收获与反思**
+
+- 熟悉了Spring全家桶的实际应用
+- 掌握了前后端分离开发流程
+- 对缓存、消息推送等有了更深入理解
